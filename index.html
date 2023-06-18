@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tiyatro Şirketi</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="https://cdn.discordapp.com/attachments/1119002146315177984/1119877092641865859/Baslksz98_20230618093124.png" alt="Tiyatro Logo">
+      </div>
+      <ul>
+        <li><a href="#anasayfa">Anasayfa</a></li>
+        <li><a href="#oyunlar">Oyunlar</a></li>
+        <li><a href="#hakkimizda">Hakkımızda</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="anasayfa">
+    <h1>Tiyatro Şirketi</h1>
+    <p>En iyi sahne performansları için bizi tercih edin.</p>
+    <a href="#hakkimizda" class="btn">Daha Fazla Bilgi</a>
+  </section>
+
+  <section id="oyunlar">
+    <h2>Oyunlar</h2>
+    <table class="oyunlar-tablosu">
+      <thead>
+        <tr>
+          <th>Oyun Adı</th>
+          <th>Yönetmen</th>
+          <th>Tarih</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Oyun 1</td>
+          <td>Yönetmen 1</td>
+          <td>14 Temmuz 2023</td>
+        </tr>
+        <tr>
+          <td>Oyun 2</td>
+          <td>Yönetmen 2</td>
+          <td>21 Temmuz 2023</td>
+        </tr>
+        <tr>
+          <td>Oyun 3</td>
+          <td>Yönetmen 3</td>
+          <td>28 Temmuz 2023</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>Tiyatro Şirketi, yıllardır sahne sanatlarına katkıda bulunan bir kuruluştur. Amacımız, seyircilere unutulmaz deneyimler sunmak ve sanatçıları desteklemektir.</p>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <form>
+      <label for="name">Adınız:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">E-posta Adresiniz:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mesajınız:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="logo">
+      <img src="https://cdn.discordapp.com/attachments/1119002146315177984/1119877092641865859/Baslksz98_20230618093124.png" alt="Tiyatro Logo">
+    </div>
+    <p>Tüm hakları saklıdır &copy; 2023 Tiyatro Şirketi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
