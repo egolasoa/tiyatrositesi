@@ -1,5 +1,6 @@
 # tiyatrositesi
 Tiyatro şirketleri için tasarlanmış site.
+https://egolasoa.github.io/tiyatrositesi/
 # Tiyatro Şirketi Websitesi
 
 Bu proje, bir tiyatro şirketinin websitesinin HTML, CSS ve JavaScript kullanılarak oluşturulmuş halidir. Bu website, tiyatro şirketinin tanıtımını yapmayı, oyunlarını sergilemeyi ve iletişim kurmayı amaçlamaktadır.
